@@ -44,6 +44,7 @@
 				<configuration>
 					<source>1.5</source>
 					<target>1.5</target>
+					<version>1.5</version>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -110,8 +111,8 @@
 			<scope>test</scope>
 			<classifier>jdk15</classifier>
 		</dependency>
-		<dependency>
-			<groupId>org.openqa.selenium.client-drivers</groupId>
+		<!--<dependency>
+		<groupId>org.openqa.selenium.client-drivers</groupId>
 			<artifactId>selenium-java-client-driver</artifactId>
 			<version>1.0.1</version>
 			<scope>test</scope>
@@ -127,6 +128,7 @@
 					<artifactId>org.mortbay.jetty</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>-->
+		
 	</dependencies>
 </project>
